@@ -3,6 +3,8 @@ name = "rag-practice"
 version = "0.1.0"
 requires-python = ">=3.10,<3.14"
 dependencies = [
+    "chromadb>=1.5.0",
+    "faiss-cpu>=1.13.2",
     "ipykernel>=7.2.0",
     "langchain>=1.2.10",
     "langchain-community>=0.4.1",
@@ -10,4 +12,5 @@ dependencies = [
     "langchain-text-splitters>=1.1.0",
     "pymupdf>=1.27.1",
     "pypdf>=6.7.0",
+    "sentence-transformers>=5.2.2",
 ]
